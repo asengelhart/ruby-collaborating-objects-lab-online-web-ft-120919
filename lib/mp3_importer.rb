@@ -12,4 +12,7 @@ class MP3Importer
     #binding.pry
     Dir.children(path)
   end 
+  
+  def import 
+    self.files.each{|filename| 
 end 
