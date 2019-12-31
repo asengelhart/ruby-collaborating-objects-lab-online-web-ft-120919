@@ -21,7 +21,6 @@ class Song
     #Assumes format "Artist - Name - Genre.mp3"
     artist_name, song_name, genre = filename.split(" - ")
     song = self.new(song_name)
-    binding.pry 
     song.artist_name = artist_name
   end 
   
